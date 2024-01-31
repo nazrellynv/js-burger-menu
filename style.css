@@ -1,0 +1,59 @@
+
+.sidebar-menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 120px;
+}
+
+p, .fa-bars {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.fa-bars{
+font-size: 32px;
+color: brown;
+border: brown;
+  
+}
+p {
+  font-size: 36px;
+  color: rgb(128, 37, 37);
+}
+
+.sidebar-content {
+  display: none;
+  background-color: rgb(236, 196, 144);
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  top: 0;
+
+}
+.sidebar-content.active {
+  display: block;
+}
+#btn2{
+  width: 18px;
+}
+.fa-x {
+  margin-left: 150px;
+  font-size: 18px;
+  color:rgb(66, 13, 13);
+}
+ul li {
+  padding: 12px;
+  color:  rgb(66, 13, 13);
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+
+ul li:hover {
+ text-decoration: underline;
+ opacity: 0.6;
+}
